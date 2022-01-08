@@ -9,10 +9,9 @@ const Footer = () => (
         <img src={logo} alt="logo" className="w-32" />
       </div>
       <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Market</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Exchange</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Tutorials</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Wallets</p>
+      <a href="https://cryptoverse-jcg.netlify.app/news"><p className="text-white text-base text-center mx-2 cursor-pointer">News</p></a>
+        <a href="https://cryptoverse-jcg.netlify.app/exchanges"><p className="text-white text-base text-center mx-2 cursor-pointer">Exchanges</p></a>
+        <a href="https://cryptoverse-jcg.netlify.app/cryptocurrencies"><p className="text-white text-base text-center mx-2 cursor-pointer">Cryptocurrencies</p></a>
       </div>
     </div>
 
